@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: 2px double red;
+}
+#resultado{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: aquamarine;   
+}
+td,th {
+    vertical-align:top;
+    text-align:center;
+    border-radius:15px;
+    background-color:aqua;
+}
+#par{
+    color: rgb(0, 42, 255);
+}
+#impar{
+    color: rgb(0, 42, 255);
+}
+#enteros{
+    color: rgb(0, 42, 255);
+}

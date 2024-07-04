@@ -1,0 +1,24 @@
+<!-- esto es la estructura de la pagina que se desea hacer -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta charset="utf-8" />
+    <!-- esto son los links que se juntan para dar diseño y funciones a los codigos -->
+    <script src="primero.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1>Te puedo decir dónde tienes el puntero del Mouse</h1>
+        <p>El Mouse está ahora encima del siguiente cuadrado:</p>
+        <h2 id="respuesta">ninguno</h2>
+        <!-- todos estos son los cuadros o contenedores que esta seleccionado por identidad (id) colores -->
+        <div id="rojo" onmouseover="escribe(1)" onmouseout="escribe(0)"></div>  <!-- onmouseover es llamar a la funcion al mover el punto del mause sobre el contenido-->
+        <div id="amarillo" onmouseover="escribe(2)" onmouseout="escribe(0)"></div>  <!-- onmouseout es llamar a la funcion al mover el puntero del mause fuera del contenido-->
+        <div id="verde" onmouseover="escribe(3)" onmouseout="escribe(0)"></div>
+        <div id="azul" onmouseover="escribe(4)" onmouseout="escribe(0)"></div>
+    </div>
+</body>
+</html>
